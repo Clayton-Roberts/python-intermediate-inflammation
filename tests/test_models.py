@@ -1,5 +1,5 @@
 """Tests for statistics functions within the Model layer."""
-
+# pylint: disable=C0415
 import numpy as np
 import numpy.testing as npt
 import pytest
