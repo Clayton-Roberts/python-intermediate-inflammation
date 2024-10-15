@@ -5,7 +5,8 @@ import argparse
 import os
 
 from inflammation import models, views
-from inflammation.compute_data import analyse_data, CSVDataSource, JSONDataSource
+from inflammation.compute_data import CSVDataSource, JSONDataSource
+from inflammation.models import analyse_data
 
 
 def main(args):
